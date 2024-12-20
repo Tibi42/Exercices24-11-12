@@ -1,0 +1,66 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.2s ease;
+  }
+  
+  /* Agrandit légèrement la card au survol */
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style de l'image de la card */
+  .card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Contenu de la card */
+  .card-content {
+    padding: 16px;
+  }
+  
+  /* Style du titre */
+  .card-title {
+    font-size: 1.25rem;
+    margin: 0 0 10px;
+  }
+  
+  /* Style de la description */
+  .card-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Style du bouton */
+  .card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;
+  }
